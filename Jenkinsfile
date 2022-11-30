@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh '''
                 ls
-                echo "hola, ¿Cómo estás?"
+                echo "hola, ¿Cómo estás amigo?"
 
                 '''
             }
