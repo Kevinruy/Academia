@@ -18,6 +18,14 @@ pipeline {
                 '''
             }
         }
+        stage('Testing'){
+            steps{
+                sh '''
+                echo "Tareas de testing"
+                '''
+                }
+         }
+                
         stage('deployar') {
             steps {
                 sh '''
